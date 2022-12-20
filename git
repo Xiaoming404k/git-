@@ -4,3 +4,19 @@ git的使用：
 3.使用：
   3.1 桌面右击会多出两个模块：
   切记选择第二个 Git Bash here 
+配置用户：git config  --global user.name Xiaoming    (用户)
+          git config --global user.email Xiaoming@kk.com  (email) 对于非正式用途下可以随意写
+          
+获取使用： 1. git clone 
+获取下载：  Git Bash here 窗口 输入 ： git clone github上的地址 ，王城后会下载下来
+2.git init
+创建一个自己的文件夹，在里面打开Git Bash here 窗口。当前文件夹保存即可。
+
+提交文件：1.git  add .   （. 代表当前文件夹） 注意：  . 可以换为具体的文件
+2.git commit -m"备注内容"
+
+查看提交日志：
+git log
+
+恢复文件：checkout
+git checkout HEAD 文件名  （是将文件从暂存区拉取）
