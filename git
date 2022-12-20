@@ -1,0 +1,6 @@
+git的使用：
+1.下载安装git， 网址：https://git-scm.com/download/win
+2.选择核实的位置安装，一路确认即可（E：\Git）
+3.使用：
+  3.1 桌面右击会多出两个模块：
+  切记选择第二个 Git Bash here 
